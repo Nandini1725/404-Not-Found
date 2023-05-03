@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    max-width: 1440px;
+    max-height: 1080px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top{
+    font-family: "Inconsolata" , sans-serif;
+    padding: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03rem;
+}
+
+.main-body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    margin-top: 79px;
+    width: 500px;
+    height: 400px;
+}
+
+.text{
+    font-family: "Space Mono" , sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+p{
+    font-family: "Space Mono" , sans-serif;
+    margin-top: 36px;
+    font-size: 28px;
+}
+
+button{
+    background-color: #333333;
+    color: white;
+    padding: 24px 43px;
+    margin-top: 40px;
+    font-family: "Space Mono" , sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width: 488px) {
+    .main-body{
+        flex-direction: column;
+        justify-content: center;
+    }
+    img{
+        width: 286px;
+        height: 220px;
+    }
+    .text{
+        margin-top: 50px;
+        font-size: 24px;
+    }
+}
